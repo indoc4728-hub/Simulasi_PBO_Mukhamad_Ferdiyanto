@@ -23,12 +23,13 @@ class PendaftaranReguler extends Pendaftaran
 
     public function hitungTotalBiaya()
     {
-
+        return $this->biayaPendaftaranDasar;
     }
 
     public function tampilkanInfoJalur()
     {
-
+        return "Pilihan Prodi : " . $this->pilihanProdi .
+               "<br>Lokasi Kampus : " . $this->lokasiKampus;
     }
 }
 

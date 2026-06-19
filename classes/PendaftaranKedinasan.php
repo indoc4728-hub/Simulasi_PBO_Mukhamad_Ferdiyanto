@@ -23,12 +23,13 @@ class PendaftaranKedinasan extends Pendaftaran
 
     public function hitungTotalBiaya()
     {
-
+        return $this->biayaPendaftaranDasar * 1.25;
     }
 
     public function tampilkanInfoJalur()
     {
-
+        return "SK Ikatan Dinas : " . $this->skIkatanDinas .
+               "<br>Instansi Sponsor : " . $this->instansiSponsor;
     }
 }
 

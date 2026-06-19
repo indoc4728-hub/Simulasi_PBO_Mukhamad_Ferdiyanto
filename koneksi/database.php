@@ -3,7 +3,7 @@
 $host = "localhost";
 $username = "root";
 $password = "";
-$database = "DB_SIMULASI_PBO_KELAS_NamaLengkap"; // sesuaikan
+$database = "db_simulasi_pbo_trpl1a_ferdi"; // sesuaikan
 
 $db = new mysqli($host, $username, $password, $database);
 
